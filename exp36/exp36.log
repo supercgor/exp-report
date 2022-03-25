@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2022.3.18)  25 MAR 2022 17:26
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2022.3.18)  25 MAR 2022 17:50
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**exp39
-(./exp39.tex
+**exp36
+(./exp36.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
@@ -764,15 +764,9 @@ Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \l__siunitx_table_text_align_skip=\skip86
  (/usr/share/texlive/texmf-dist/tex/latex/translator/translator.sty
 Package: translator 2019-05-31 v1.12a Easy translation of strings in LaTeX
-))) (./exp39.aux
-
-LaTeX Warning: Label `tab:tab_data2' multiply defined.
-
-
-LaTeX Warning: Label `tab:tab_data2@cref' multiply defined.
-
-)
-\openout1 = `exp39.aux'.
+)))
+No file exp36.aux.
+\openout1 = `exp36.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
@@ -784,7 +778,7 @@ LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 15.
- (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 15.
@@ -903,13 +897,16 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 15.
 LaTeX Info: Redefining \pageref on input line 15.
 LaTeX Info: Redefining \nameref on input line 15.
- (./exp39.out) (./exp39.out)
 \@outlinefile=\write4
-\openout4 = `exp39.out'.
+\openout4 = `exp36.out'.
+
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
- ABD: EveryShipout initializing macros (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
+ABD: EveryShipout initializing macros (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
@@ -939,32 +936,71 @@ Package xeCJK Warning: Unknown CJK family `\CJKsfdefault' is being ignored.
 (xeCJK)                
 (xeCJK)                Try to use `\setCJKsansfont[...]{...}' to define it.
 
-[1] [2] [3] [4
+[1] [2]
+File: fig1.png Graphic file (type bmp)
+<fig1.png>
+ [3]
 
-] [5] [6] [7]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 319.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 319.
- (./exp39.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 319.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 319.
-Package rerunfilecheck Info: File `exp39.out' has not changed.
-(rerunfilecheck)             Checksum: 47D61AE07E88EA9747E54B4C0BF46064;714.
+./exp36.tex:156: LaTeX Error: \begin{spacing} on input line 139 ended by \end{changemargin}.
 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.156 \end{changemargin}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[4]
+
+./exp36.tex:157: LaTeX Error: \begin{spacing} on input line 139 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.157 \end{document}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 157.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 157.
+(./exp36.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 157.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 157.
+
+
+Package rerunfilecheck Warning: File `exp36.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `exp36.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  5A74A0D917BA5DE4B2973955DEE0B914;448.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 319.
- ) 
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 157.
+ )
+(\end occurred inside a group at level 2)
+
+### semi simple group (level 2) entered at line 139 (\begingroup)
+### semi simple group (level 1) entered at line 21 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
- 31883 strings out of 479819
- 682422 string characters out of 5895846
- 966117 words of memory out of 5000000
- 48474 multiletter control sequences out of 15000+600000
- 543718 words of font info for 108 fonts, out of 8000000 for 9000
+ 31840 strings out of 479819
+ 680528 string characters out of 5895846
+ 950117 words of memory out of 5000000
+ 48442 multiletter control sequences out of 15000+600000
+ 541760 words of font info for 99 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 75i,18n,88p,753b,1189s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 75i,12n,88p,492b,1189s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on exp39.pdf (8 pages).
+Output written on exp36.pdf (5 pages).
