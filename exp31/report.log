@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2022.3.18)  20 MAR 2022 14:10
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2022.3.18)  25 MAR 2022 17:57
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -22,7 +22,7 @@ File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen134
-) (/home/supercgor/texmf/tex/latex/see-doc/see-exp/see-exp.sty
+) (/home/supercgor/texmf/tex/latex/see-exp/see-exp.sty
 Package: see-exp 2022/3/17
  (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
@@ -950,7 +950,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 247.
  ) 
 Here is how much of TeX's memory you used:
  31894 strings out of 479819
- 682618 string characters out of 5895846
+ 682594 string characters out of 5895846
  966174 words of memory out of 5000000
  48483 multiletter control sequences out of 15000+600000
  545676 words of font info for 117 fonts, out of 8000000 for 9000
