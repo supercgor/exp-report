@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2022.3.18)  25 MAR 2022 18:48
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2022.3.18)  25 MAR 2022 19:51
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -170,19 +170,19 @@ File: xeCJK.cfg 2020/02/14 v3.8.1 Configuration file for xeCJK package
 
 Package fontspec Info: Font family 'NotoSerifSC-Light.otf(0)' created for font
 (fontspec)             'NotoSerifSC-Light.otf' with options
-(fontspec)             [Script={CJK},BoldFont={NotoSerifSC-SemiBold.otf},ItalicFont={Kaiti.ttf}].
+(fontspec)             [Script={CJK},Path={/usr/share/fonts/Noto_Serif_SC/},BoldFont={NotoSerifSC-SemiBold.otf},ItalicFont={../ZhongYi/Kaiti.ttf}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[NotoSerifSC-Light.otf]/OT:script=hani;language=dflt;"
+(fontspec)             <->"[/usr/share/fonts/Noto_Serif_SC/NotoSerifSC-Light.otf]/OT:script=hani;language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"[NotoSerifSC-SemiBold.otf]/OT:script=hani;language=dflt;"
+(fontspec)             <->"[/usr/share/fonts/Noto_Serif_SC/NotoSerifSC-SemiBold.otf]/OT:script=hani;language=dflt;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"[Kaiti.ttf]/OT:script=hani;language=dflt;"
+(fontspec)             <->"[/usr/share/fonts/Noto_Serif_SC/../ZhongYi/Kaiti.ttf]/OT:script=hani;language=dflt;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
 
  (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
@@ -302,7 +302,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 ) (/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-ascii-print.def
 File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 107.
+Package hyperref Info: Option `colorlinks' set `true' on input line 108.
  (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
 \f@nch@headwidth=\skip57
@@ -928,11 +928,24 @@ LaTeX Font Warning: Font shape `TU/NotoSerifSC-Light.otf(0)/m/sc' undefined
 
 ])
 
-Package xeCJK Warning: Unknown CJK family `\CJKsfdefault' is being ignored.
-(xeCJK)                
-(xeCJK)                Try to use `\setCJKsansfont[...]{...}' to define it.
+Package fontspec Info: Font family 'NotoSansSC-Light.otf(0)' created for font
+(fontspec)             'NotoSansSC-Light.otf' with options
+(fontspec)             [Script={CJK},Path={/usr/share/fonts/Noto_Sans_SC/},BoldFont={NotoSansSC-Medium.otf},ItalicFont={../ZhongYi/Kaiti.ttf}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[/usr/share/fonts/Noto_Sans_SC/NotoSansSC-Light.otf]/OT:script=hani;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[/usr/share/fonts/Noto_Sans_SC/NotoSansSC-Medium.otf]/OT:script=hani;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[/usr/share/fonts/Noto_Sans_SC/../ZhongYi/Kaiti.ttf]/OT:script=hani;language=dflt;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
 
-[1] [2]
+ [1] [2]
 File: fig1.png Graphic file (type bmp)
 <fig1.png>
  [3]
@@ -954,11 +967,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 169.
  ) 
 Here is how much of TeX's memory you used:
- 31860 strings out of 479819
- 681437 string characters out of 5895846
- 950118 words of memory out of 5000000
- 48456 multiletter control sequences out of 15000+600000
- 541760 words of font info for 99 fonts, out of 8000000 for 9000
+ 31886 strings out of 479819
+ 683296 string characters out of 5895846
+ 950967 words of memory out of 5000000
+ 48472 multiletter control sequences out of 15000+600000
+ 541816 words of font info for 106 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  75i,12n,88p,493b,1189s stack positions out of 5000i,500n,10000p,200000b,80000s
 
