@@ -13,9 +13,10 @@
 \begin{document}
 
 %title
-\input{/home/supercgor/texmf/exp-titlepage.tex}
+\input{../../texmf/see-exp-title.tex}
 
 %contents here
+\linespread{1.4} \selectfont
 \section{实验概要}
 \subsection{实验目的}
 \hspace{2em}本实验旨在引导学生通过实验学习光学傅里叶变换以及空间频率、空间频谱和空间滤波等相关概念，探究光学成像和光学信息处理的基本原理。
@@ -325,9 +326,9 @@ $$T_n(x)=\frac{a_0}{2}+ \sum^\infty_{k=1}a_k\cos{k x}+b_k\sin{k x}$$
     \caption{不同空间滤波条件讨论\label{table:2}}
     \setlength{\tabcolsep}{3mm}
     \renewcommand{\arraystretch}{1.4}
-    {\begin{tabular}{m{1cm}<{\centering}m{2.3cm}<{\centering}m{4.5cm}<{\justifying}m{5cm}<{\justifying}}
+    {\begin{tabular}{m{1cm}<{\centering}m{2.3cm}<{\centering}m{4.5cm}<{\centering}m{5cm}<{\centering}}
             \toprule
-            条件 & 通过的衍射点  & \tc{图像情况}                                                     & \tc{简要解释}                                                                                                                    \\\midrule
+            条件 & 通过的衍射点  & \tableCenter{图像情况}                                                     & \tableCenter{简要解释}                                                                                                                    \\\midrule
             A    & 全部          & 等间距的亮条纹和暗条纹。                                          & 利用傅里叶三角级数形式，一维光栅的像在屏上为周期性的方波。                                                                       \\
             B    & 0级           & 用内眼看屏时，基本看不出亮条纹和暗条纹。                          & 由于丢失了全部周期性变化的交流信息，因此像面上呈现一片均匀强度的光。                                                             \\
             C    & 0,$\pm 1$级   & 和A间距一样的亮条纹和暗条纹。                                     & 这与A的图像差别不大，但傅里叶三角级数形式会发现只剩下$\pm 1$级频率的三角函数，因此在屏上为一余弦函数。                           \\
@@ -442,7 +443,7 @@ $$T_n(x)=\frac{a_0}{2}+ \sum^\infty_{k=1}a_k\cos{k x}+b_k\sin{k x}$$
         \label{fig3-3-10}
     \end{subfigure}
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    \captionsetup{justification=centering,subrefformat=parens,margin=2cm,format=cont}
+    \captionsetup{margin=2cm,format=cont}
     \caption{\subref{fig3-3-2},\subref{fig3-3-4},\subref{fig3-3-6},\subref{fig3-3-8},\subref{fig3-3-10}为像平面上的光强分布，可以看到\subref{fig3-3-4}只剩下直流部份，因此光场是匀强的；\subref{fig3-3-6}半高全寛减小，条纹较细；\subref{fig3-3-8}上虽然光强的分布的周期没变，但是因为在两个光强极大值的峰之间的次极值都只有$\approx 0.2I(x)$因此肉眼上观察明条纹会变得密集；\subref{fig3-3-10}衬比度较低。}
 \end{figure}
 \begin{figure}[H]\ContinuedFloat
@@ -532,9 +533,9 @@ $$T_n(x)=\frac{a_0}{2}+ \sum^\infty_{k=1}a_k\cos{k x}+b_k\sin{k x}$$
     \caption{二维光栅的不同空间滤波条件讨论\label{table:3}}
     \setlength{\tabcolsep}{3mm}
     \renewcommand{\arraystretch}{1.2}
-    {\begin{tabular}{m{1cm}<{\centering}m{2.3cm}<{\centering}m{4.5cm}<{\justifying}m{5cm}<{\justifying}}
+    {\begin{tabular}{m{1cm}<{\centering}m{2.3cm}<{\centering}m{4.5cm}<{\centering}m{5cm}<{\centering}}
             \toprule
-            条件 & 频谱面 & \tc{图像情况}                                      & \tc{简要解释}                                                                                             \\\midrule
+            条件 & 频谱面 & \tableCenter{图像情况}                                      & \tableCenter{简要解释}                                                                                             \\\midrule
             A    & 小孔   & 光均匀，条纹不清晰，无法测量条纹间距。             & 只有$0$级通过，没有其他空间频率的光通过，不能叠加为周期条纹，没有高频信息的周期结构，低通滤波，光强均匀。 \\
             B    & 纵狭缝 & 纵向的狭缝的像是纵向排布的亮暗相间横条纹。         & 频谱面上只让一排光点通过，如一维光栅的全部衍射点通过后成的像，方向为纵向。                                \\
             C    & 横狭缝 & 横向的狭缝的像是纵向排布的亮暗相间纵条纹。         & 频谱面上只让一排光点通过，如一维光栅的全部衍射点通过后成的像，方向为横向。                                \\
@@ -597,9 +598,9 @@ $$T_n(x)=\frac{a_0}{2}+ \sum^\infty_{k=1}a_k\cos{k x}+b_k\sin{k x}$$
     \caption{二维光栅的不同空间滤波条件讨论\label{table:4}}
     \setlength{\tabcolsep}{3mm}
     \renewcommand{\arraystretch}{1.2}
-    {\begin{tabular}{m{1cm}<{\centering}m{2.3cm}<{\centering}m{4.5cm}<{\justifying}m{5cm}<{\justifying}}
+    {\begin{tabular}{m{1cm}<{\centering}m{2.3cm}<{\centering}m{4.5cm}<{\centering}m{5cm}<{\centering}}
             \toprule
-            条件 & 频谱面                                                   & \tc{图像情况}                                      & \tc{简要解释}                                                                                                                                                                                   \\\midrule
+            条件 & 频谱面                                                   & \tableCenter{图像情况}                                      & \tableCenter{简要解释}                                                                                                                                                                                   \\\midrule
             A    & 无光栅和光栏，全部通过                                   & 光栅的规律点阵和“光”字叠加为“光”字的点阵，较不离散 & 此时频谱面的空间频谱为两个衍射屏(正交光栅和“光”字)的空间频谱的卷积，光栅的频谱为$\delta(x_i)$，“光”字频谱和$\delta(x_i)$卷积和反卷积后得到为原频谱，得到各$\delta(x_i)$上的“光”字，为光字点阵。 \\
             B    & 圆孔光栏$\phi=\SI{1}{\mm}$                               & 点阵消失，只有单个“光”字像                         & 如前表\ref{table:2}(A)，只有$0$级通过，没有其他空间频率的光通过使得叠加为周期条纹，没有高频信息的周期结，低通滤波，光强均匀，“光”字和一个$\delta(x)$卷积得到一个“光”字像。                      \\
             C    & 圆孔光栏$\phi=\SI{0.3}{\mm}$                             & 图像更为模糊(尤其在边缘处)                         & “光”字笔划粗，带有的频谱面光轴附近的低频成份较多，高频频谱在离光轴较远，此圆孔光栏较小，滤掉的高频频谱更多，使得完整的“光”字信息更少，图像较模糊。                                              \\
@@ -705,9 +706,9 @@ $$\begin{aligned}
     \caption{二维光栅的不同空间滤波条件讨论\label{table:4}}
     \setlength{\tabcolsep}{3mm}
     \renewcommand{\arraystretch}{1.2}
-    {\begin{tabular}{m{1cm}<{\centering}m{2.3cm}<{\centering}m{4.5cm}<{\justifying}m{5cm}<{\justifying}}
+    {\begin{tabular}{m{1cm}<{\centering}m{2.3cm}<{\centering}m{4.5cm}<{\centering}m{5cm}<{\centering}}
             \toprule
-            条件 & 频谱面                 & \tc{图像情况}                              & \tc{简要解释}                                                                                                \\\midrule
+            条件 & 频谱面                 & \tableCenter{图像情况}                              & \tableCenter{简要解释}                                                                                                \\\midrule
             A    & 无光栅和光栏，全部通过 & 得到整、边缘清晰的“十”字像                 & 高低频频谱信号皆到达像面，变换近乎理想，信息损失较少，像和物相似。                                           \\
             B    & 圆光屏                 & 边缘较清晰，中心较模糊，光强降低的“十”字像 & 圆屏为高通滤波器，使得接近光轴的低频频谱通过较少，边缘的高频频谱通过较多，形成边缘清晰，中心模糊的“十”字像。 \\
             \bottomrule
